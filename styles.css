@@ -1,0 +1,40 @@
+body {
+    background-color: gray;  
+  }
+  
+  #nav-bar {
+    position: fixed;
+    padding: 20px;
+    display: flex;
+  }
+  
+  header-img {
+    display: flex
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  section{
+    display: grid;
+    padding: 10px 60px;
+  }
+  
+  section:first-of-type {
+    padding: 200px 60px 10px 60px;
+  }
+  
+  li {
+    list-style: none
+  }
+  
+  @media (){
+  
+  }
