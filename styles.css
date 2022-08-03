@@ -3,28 +3,39 @@ body {
   }
   
   #nav-bar {
-    position: fixed;
     padding: 20px;
     display: flex;
   }
   
-  header-img {
-    display: flex
-  }
-  
-  ul {
+  nav > ul {
+    width: 35vw;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    margin-left: 240px
   }
+  
+  header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  header-img {
+    display: flex;
+  }
+  
   
   li {
     display: flex;
     justify-content: space-around;
+    background-color: orange;
   }
   
   section{
     display: grid;
-    padding: 10px 60px;
+    padding: 10px 60px 10px 280px;
   }
   
   section:first-of-type {
